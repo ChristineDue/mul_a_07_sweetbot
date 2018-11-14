@@ -39,7 +39,8 @@ nav{
 .topnav {
     overflow: hidden;
 	border: 1px solid #E99019;
-
+	display: inline;
+	float: right;
 	
 }
 
