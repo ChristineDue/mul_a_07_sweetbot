@@ -5,15 +5,12 @@
 	margin:0;
 	padding: 0;
 }
-
-.forsidebillede{
-	width: 50%;
-	height: 300px;
+body{
+	font-family: 'Lato', sans-serif;
 }
-.forsidebillede img{
-	height: 500px;
-	width: auto;
-	border: 1px solid pink;	
+
+.header{
+	display: flex;
 }
 
 .logo{
@@ -27,30 +24,55 @@
 	display: inline;
 }
 
-nav{
-	height: 50px;
+.forsidebillede{
 	width: 50%;
-	font-size: 25px;
+	height: 300px;
+
+}
+.forsidebillede img{
+	height: 500px;
+	width: auto;
+	border: 1px solid pink;	
+	position: relative;
+	margin-left: 184px;
+	opacity: 0.5;
+}
+
+
+
+nav{
+	height: 219px;
+	width: 50%;
+	font-size: 27px;
 	border: 1px solid yellow;
-	display: inline;
+	line-height: 270px;
 	
 }
 
+
 .topnav {
-    overflow: hidden;
 	border: 1px solid #E99019;
-	display: inline;
-	float: right;
-	
 }
 
 a{
-	padding: 12px 12px 12px 0;
+	padding: 0 15px 0 15px;
 	text-decoration: none;
 	color: black;
 	display: inline-block;
 	text-align: center;
 }
+
+footer{
+	border: 3px solid green;
+	position: relative;
+	margin-top: 800px;
+}
+tr{
+	border: 1px solid red;
+}
+
+
+
 
 
 
