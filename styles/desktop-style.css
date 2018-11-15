@@ -5,15 +5,13 @@
 	margin:0;
 	padding: 0;
 }
-
-.forsidebillede{
-	width: 50%;
-	height: 300px;
+body{
+	font-family: 'Lato', sans-serif;
 }
-.forsidebillede img{
-	height: 500px;
-	width: auto;
-	border: 1px solid pink;	
+
+
+.header{
+	display: flex;
 }
 
 .logo{
@@ -27,24 +25,63 @@
 	display: inline;
 }
 
-nav{
-	height: 50px;
+.forsidebillede{
 	width: 50%;
-	font-size: 25px;
+	height: 300px;
+
+}
+.forsidebillede img{
+	height: 500px;
+	width: auto;
+	border: 1px solid pink;	
+	position: relative;
+	margin-left: 184px;
+	opacity: 0.5;
+}
+
+h1{
+	font-size: 2.5em;
+	position: relative;
+	bottom: 220px;
+	left: 300px;
+	text-shadow: 1px 1px grey;
+}
+
+button{
+	position: relative;
+	bottom: 200px;
+	left: 460px;
+	padding: 8px 10px;
+	font-size: 1em;
+	font-weight: 600;
+	border-radius: 4px;
+	background: white;
+	opacity: 0.85;
+	
+}
+button:hover{
+	background: #7E7E7E;
+	opacity: 1;	
+}
+.knap:hover{
+	color: white;
+}
+nav{
+	height: 219px;
+	width: 50%;
+	font-size: 27px;
 	border: 1px solid yellow;
-	display: inline;
+	line-height: 270px;
 	
 }
 
-.topnav {
-    overflow: hidden;
-	border: 1px solid #E99019;
 
-	
+.topnav {
+	border: 1px solid #E99019;
 }
 
 a{
-	padding: 12px 12px 12px 0;
+	padding: 0 15px 0 15px;
 	text-decoration: none;
 	color: black;
 	display: inline-block;
@@ -52,6 +89,24 @@ a{
 }
 
 
+ul{
+	list-style-type: none;
+}
+
+/*Services styles*/
+.indholdservice{
+	border: 1px solid blue;
+	display: flex;
+	margin: 10px;
+	
+}
+
+.kolonne{
+	border: 1px solid red;
+	display: flex;
+	margin: 10px;
+	
+}
 
 /*så man stopper udviklingen af skærmen når den bliver for bred - låser layoutet ved 1200 px*/
 /* en media query "indlejret" i dette stylesheet*/
