@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+/*Søgebar, navigation og logo style*/
+
+.logo{
+	padding: 73px 73px 73px 0;
+	max-width: 100%;
+}
+
+nav{
+	font-size: 27px;
+}
+
+.navmenu{
+	padding: 22% 5% 0 0;
+}
+
+.navmenu a{
+	padding: 0 15px 0 15px;
+	text-decoration: none;
+	color: black;
+}
+
+/* Forside style*/
+
+.forsidebillede{
+	max-width: 100%;
+	opacity: 0.75;
+}
+
+
+.slogan h2{
+	font-size: 2.5em;
+	position: relative;
+	bottom: 500px;
+	right: 120px;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+}
+
+.sloganKnap{
+	position: relative;
+	bottom: 470px;
+	left: 420px; 
+	padding: 8px 10px;
+	font-size: 1em;
+	font-weight: 600;
+	border-radius: 4px;
+	background: white;
+	opacity: 0.85;
+	text-decoration: none;
+	color: black;
+}
+
+.sloganKnap:hover{
+	background: #7E7E7E;
+	opacity: 1;	
+}
+.sloganKnap:hover{
+	color: white;
+}
+
+/* Footer style */
+
+.footer{
+	background: #7E7E7E;
+	max-width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+}
+
+ul{
+	list-style-type: none;
+	color: white;
+	font-weight: 700;
+	position: relative;
+	top: 100px;
+}
+
+li{
+	padding: 10px;
+}
+
+.kontaktKnap{
+	text-decoration: none;
+	color: white;
+}
+.kontaktKnap:hover{
+	color: orange;
+}
+
+.mapbund{
+	height:auto;
+	width: 100%;
+	padding: 20px;
+}
+
+.fa {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+	color: white;
+	font-size: 50px;
+	position: relative;
+	top: 210px;
+}
+
+.copyright{
+	color: white;
+	padding: 0 0 3% 0;
+}
+
+/*Services styles*/
+.hotbotLogo{
+	width: 100%;
+	height: auto;
+}
+
+
+.indholdservice{
+	border: 1px solid blue;
+	display: flex;
+	margin: 10px;
+	
+}
+
+.kolonne{
+	padding: 15% 10% 10% 10%;
+	display: flex;
+	margin: 10px;
+	text-align: center;
+	
+}
+
+.kolonne img{
+	
+	width: 40%;
+	height: auto;
+}
+
+.kolonne p{
+	line-height: 25px;
+	text-align: justify;
+	margin-bottom: 25px;
+}
+
+.kolonne a{
+	text-decoration: none;
+	color: #7E7E7E;
+	padding: 3%;
+	background: white;
+	border: 1px solid #7E7E7E;
+	border-radius: 4px;
+}
+
+.kolonne a:hover{
+	background: #7E7E7E;
+	color: white;
+}
+
+.burgerMenu { /* Normal: Skjul burger menu*/
+		display: none;
+	}
+.navmenu{
+	display: flex;
+}
+
+/*så man stopper udviklingen af skærmen når den bliver for bred - låser layoutet ved 1200 px*/
+/* en media query "indlejret" i dette stylesheet*/
+
+@media screen and (min-width: 1200px){
+	.container{
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+}
+
+
+
+@media handheld, only screen and (max-width: 767px) {
+	.burgerMenu { 
+		display: flex;
+	}
+	.navmenu{
+		display: none;
+	}
+}

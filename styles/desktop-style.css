@@ -5,10 +5,10 @@
 	margin:0;
 	padding: 0;
 }
+
 body{
 	font-family: 'Lato', sans-serif;
 }
-
 
 .header{
 	display: flex;
@@ -21,7 +21,7 @@ body{
 }
 .logo img{
 	padding: 73px 73px 73px 0;
-	border: 1px solid red;
+	
 	display: inline;
 }
 
@@ -31,25 +31,24 @@ body{
 
 }
 .forsidebillede img{
-	height: 500px;
+	height: 714px;
 	width: auto;
-	border: 1px solid pink;	
 	position: relative;
-	margin-left: 184px;
+	margin-left: 15px;
 	opacity: 0.5;
 }
 
 h1{
 	font-size: 2.5em;
 	position: relative;
-	bottom: 220px;
+	bottom: 150px;
 	left: 300px;
 	text-shadow: 1px 1px grey;
 }
 
 button{
 	position: relative;
-	bottom: 200px;
+	bottom: 130px;
 	left: 460px;
 	padding: 8px 10px;
 	font-size: 1em;
@@ -70,14 +69,15 @@ nav{
 	height: 219px;
 	width: 50%;
 	font-size: 27px;
-	border: 1px solid yellow;
+	
 	line-height: 270px;
 	
 }
 
 
 .topnav {
-	border: 1px solid #E99019;
+	border-radius: 4px;
+	margin-top: 30px;
 }
 
 a{
@@ -88,11 +88,38 @@ a{
 	text-align: center;
 }
 
+.bund{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	margin-top: 300px;
+	border: 1px solid red;
+	width: 1185px;
+	margin-left: 15px;
+	background: #7E7E7E;
+}
 
 ul{
 	list-style-type: none;
+	color: white;
+	position: relative;
+	margin-left: 60px;
+	margin-top: 100px;
+	padding: 30px;
+	width: 300px;
+	
 }
 
+li{
+	padding: 5px;
+	
+}
+.mapbund{
+	height:300px;
+	width: auto;
+	padding: 10px;
+	position: relative;
+}
 /*Services styles*/
 .indholdservice{
 	border: 1px solid blue;
@@ -105,7 +132,24 @@ ul{
 	border: 1px solid red;
 	display: flex;
 	margin: 10px;
-	
+}
+
+h1{
+	font-size: 30px;
+}
+
+/*SoMe style*/
+.some{
+	margin-top: 180px;
+	width: 33.3%;
+}
+
+.fa {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+	color: white;
+	font-size: 50px;
 }
 
 /*så man stopper udviklingen af skærmen når den bliver for bred - låser layoutet ved 1200 px*/
