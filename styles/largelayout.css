@@ -125,6 +125,9 @@ li{
 .hotbotLogo{
 	width: 13%;
 	height: auto;
+}
+.baggrundHotbot{
+	background: grey;
 	
 }
 
@@ -136,7 +139,7 @@ li{
 }
 
 .kolonne{
-	border: 1px solid red;
+	padding: 15% 10% 10% 10%;
 	display: flex;
 	margin: 10px;
 	text-align: center;
@@ -144,17 +147,18 @@ li{
 }
 
 .kolonne img{
-	border: 1px solid green;
+	
 	width: 40%;
 	height: auto;
 }
 
 .kolonne h1, p{
-	border: 1px solid blue;
+	
 }
 
 .kolonne p{
-	text-align: left;
+	line-height: 25px;
+	text-align: justify;
 }
 
 .burgerMenu { /* Normal: Skjul burger menu*/
