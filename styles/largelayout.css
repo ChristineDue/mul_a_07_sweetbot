@@ -172,9 +172,6 @@ li{
 .burgerMenu { /* Normal: Skjul burger menu*/
 		display: none;
 	}
-.navmenu{
-	display: flex;
-}
 
 /*så man stopper udviklingen af skærmen når den bliver for bred - låser layoutet ved 1200 px*/
 /* en media query "indlejret" i dette stylesheet*/
@@ -186,13 +183,39 @@ li{
 	}
 }
 
+@media handheld, only screen and (max-width: 768px) and (min-width: 375px){
+	
+	.slogan h2{
+		bottom: 350px;
+		font-size: 2em;
+	}
+	
+	.sloganKnap{
+		bottom: 300px;
+	}
+	.fa{
+		top: 300px;
+		right: 370px;
+		border: 10px solid red;
+	}
+	.li{
+	}
+	.mapbund{
+		display: none;
+	}
+}
 
-
-@media handheld, only screen and (max-width: 767px) {
+@media handheld, only screen and (max-width: 375px) and (min-width:1px){
 	.burgerMenu { 
 		display: flex;
 	}
 	.navmenu{
 		display: none;
 	}
+	
+	.slogan, .sloganKnap{
+		display: none;
+	}
+	
+	
 }
