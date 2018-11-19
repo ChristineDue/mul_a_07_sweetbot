@@ -123,13 +123,10 @@ li{
 
 /*Services styles*/
 .hotbotLogo{
-	width: 13%;
+	width: 100%;
 	height: auto;
 }
-.baggrundHotbot{
-	background: grey;
-	
-}
+
 
 .indholdservice{
 	border: 1px solid blue;
@@ -152,13 +149,24 @@ li{
 	height: auto;
 }
 
-.kolonne h1, p{
-	
-}
-
 .kolonne p{
 	line-height: 25px;
 	text-align: justify;
+	margin-bottom: 25px;
+}
+
+.kolonne a{
+	text-decoration: none;
+	color: #7E7E7E;
+	padding: 3%;
+	background: white;
+	border: 1px solid #7E7E7E;
+	border-radius: 4px;
+}
+
+.kolonne a:hover{
+	background: #7E7E7E;
+	color: white;
 }
 
 .burgerMenu { /* Normal: Skjul burger menu*/
