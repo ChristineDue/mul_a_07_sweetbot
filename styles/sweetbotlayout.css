@@ -31,6 +31,9 @@ nav{
 	color: black;
 }
 
+.navmenu .currentpage{
+	color: orange;
+}
 /* Forside style*/
 
 .forsidebillede{
