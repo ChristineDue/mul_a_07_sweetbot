@@ -78,18 +78,18 @@ nav{
 	justify-content: space-around;
 	align-items: center;
 	display: flex;
+	margin-bottom: 5%;
 }
 
 ul{
 	list-style-type: none;
 	color: white;
 	font-weight: 700;
-	position: relative;
-	top: 100px;
+	margin-top: 12%;
 }
 
 li{
-	padding: 10px;
+	padding: 3%;
 }
 
 .kontaktKnap{
@@ -102,37 +102,24 @@ li{
 
 .mapbund{
 	height:auto;
-	width: 100%;
+	width: 30%;
 	padding: 20px;
 }
 
 .fa {
-    padding: 20px;
+    padding: 5%;
     text-align: center;
     text-decoration: none;
 	color: white;
 	font-size: 50px;
 	position: relative;
-	top: 210px;
-}
-
-.copyright{
-	color: white;
-	padding: 0 0 3% 0;
+	margin-top: 65%;
 }
 
 /*Services styles*/
 .hotbotLogo{
 	width: 100%;
 	height: auto;
-}
-
-
-.indholdservice{
-	border: 1px solid blue;
-	display: flex;
-	margin: 10px;
-	
 }
 
 .kolonne{
@@ -204,6 +191,9 @@ li{
 	color: white;
 }
 
+.projektlinje{
+	background: #ddd;
+}
 .burgerMenu { /* Normal: Skjul burger menu*/
 		display: none;
 	}
@@ -228,13 +218,7 @@ li{
 	.sloganKnap{
 		bottom: 300px;
 	}
-	.fa{
-		top: 300px;
-		right: 370px;
-		border: 10px solid red;
-	}
-	.li{
-	}
+	
 	.mapbund{
 		display: none;
 	}
