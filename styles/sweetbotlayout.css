@@ -18,7 +18,7 @@ body{
 }
 
 nav{
-	font-size: 27px;
+	font-size: 180%;
 }
 
 .navmenu{
@@ -156,6 +156,19 @@ li{
 	color: white;
 }
 
+/*Om os style*/
+
+.kompetenceBillede{
+	text-align: center;
+}
+.kompetenceBillede img{
+	width: 50%;
+	height: auto;	
+}
+.lillebillede img{
+	width: 90%;
+	height: auto;
+}
 
 /* Projekter style*/
 .projekttekst{
@@ -209,7 +222,12 @@ li{
 }
 
 @media handheld, only screen and (max-width: 768px) and (min-width: 375px){
-	
+	nav{
+		font-size: 130%;
+	}
+	.navmenu{
+		padding: 35% 5% 0 0;
+	}
 	.slogan h2{
 		bottom: 350px;
 		font-size: 2em;
@@ -221,6 +239,21 @@ li{
 	
 	.mapbund{
 		display: none;
+	}
+	.kompetenceBillede img{
+		width: 30%;
+		height: auto;
+	}
+	.lillebillede img{
+		width: 70%;
+		height: auto;
+	}
+	.projektbillede img{
+		margin: none;
+	}
+	.projektlinje{
+		background: none;
+		text-align: center;
 	}
 }
 
