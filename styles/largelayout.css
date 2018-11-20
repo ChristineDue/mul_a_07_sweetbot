@@ -10,7 +10,7 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
-/*Søgebar, navigation og logo style*/
+/* navigation og logo style*/
 
 .logo{
 	padding: 73px 73px 73px 0;
@@ -165,6 +165,41 @@ li{
 }
 
 .kolonne a:hover{
+	background: #7E7E7E;
+	color: white;
+}
+
+
+/* Projekter style*/
+.projekttekst{
+	margin: 10%;
+	display: flex;
+	text-align: center;
+	vertical-align: middle;
+	
+	
+}
+
+.projektbillede img{
+	margin: 10%;
+}
+
+.projekttekst p{
+	line-height: 25px;
+	text-align: justify;
+	margin-bottom: 25px;
+}
+
+.projekttekst a{
+	text-decoration: none;
+	color: #7E7E7E;
+	padding: 3%;
+	background: white;
+	border: 1px solid #7E7E7E;
+	border-radius: 4px;
+}
+
+.projekttekst a:hover{
 	background: #7E7E7E;
 	color: white;
 }
