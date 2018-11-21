@@ -46,6 +46,12 @@
 	float: right;
 }
 
+@media screen and (min-width: 1200px){
+	.container{
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+}
 /* Large layout content*/
 
 .large-1-1 {
@@ -121,6 +127,11 @@
 	width: 58.33%
 }
 
+.hide-on-large {
+		display: none !important;
+		width: 0;
+		height: 0;
+	}
 /* Pushing blocks */
 
 .push-2-3, .push-8-12 {
